@@ -220,7 +220,6 @@ const addProperty = function(property) {
     property.owner_id
   ];
 
-
   const queryString = `
     INSERT INTO properties
     (title, description, number_of_bedrooms, number_of_bathrooms, parking_spaces, cost_per_night, thumbnail_photo_url, cover_photo_url, street, country, city, province, post_code, owner_id)
